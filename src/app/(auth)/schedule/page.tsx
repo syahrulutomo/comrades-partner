@@ -132,7 +132,6 @@ const Schedule = () => {
     if (routines.indexOf(item) > -1) {
       const arr = routines.filter((x) => x !== item);
       setRoutines(arr);
-      console.log(arr)
     } else {
       setRoutines([...routines, item]);
     }

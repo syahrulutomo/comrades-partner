@@ -57,7 +57,6 @@ const DashboardPage = () => {
       dataIndex: 'status',
       key: 'status',
       render: (value: string) => {
-        console.log(value)
         if (value === 'DONE') return <Tag className='!py-1 !px-2 !text-sm' color="success">{value}</Tag>
         else if (value === 'FAILED') return <Tag className='!py-1 !px-2 !text-sm' color="error">{value}</Tag>
       }
