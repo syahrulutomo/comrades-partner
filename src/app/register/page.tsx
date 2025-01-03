@@ -33,7 +33,7 @@ const RegisterPage = () => {
           Photo by <a href="https://unsplash.com/@dchuck?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Daniel Chekalov</a> on <a href="https://unsplash.com/photos/guitar-amplifier-near-drum-instrument-rRVGpLI5ceo?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Unsplash</a>
         </Typography.Text>
       </Flex>
-      <Flex className="px-10 pt-10 w-1/2" vertical justify="center" align="center">
+      <Flex className="px-10 pt-10 w-1/2 bg-white" vertical justify="center" align="center">
         <Typography.Text
           className={clsx(
             alfa.className,

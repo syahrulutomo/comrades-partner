@@ -52,7 +52,7 @@ const LoginPage = () => {
         </Typography.Text>
       </Flex>
       <Flex
-        className="px-10 pt-10 w-1/2"
+        className="px-10 pt-10 w-1/2 bg-white"
         vertical
         justify="center"
         align="center"
